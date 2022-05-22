@@ -756,6 +756,6 @@ img {
   cursor: pointer;
 }
 
-.modal-close:hover .close-icon {
+.modal-close:hover .close-icon .modal-close:focus .close-icon {
   fill: var(--accent-color);
 }
