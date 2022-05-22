@@ -172,7 +172,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav-link:hover::after {
+.site-nav-link:hover::after,
+.site-nav-link:focus::after {
   transform: scaleX(1);
 }
 
